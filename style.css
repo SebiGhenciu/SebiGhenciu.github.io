@@ -1,0 +1,141 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('/media/font-poppins.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('/media/font-poppins-bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('/media/font-poppins-black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mukta';
+    src: url('/media/font-mukta.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mukta';
+    src: url('/media/font-mukta-medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mukta';
+    src: url('/media/font-mukta-bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+    scrollbar-color: black rgb(32, 32, 32);
+    font-family: 'Mukta', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poppins', 'Times New Roman', Times, serif;
+}
+
+body::-webkit-scrollbar {
+    @apply w-1.5;
+}
+
+body::-webkit-scrollbar-track {
+    @apply bg-black;
+}
+
+body::-webkit-scrollbar-thumb {
+    @apply bg-[#323232] rounded-full p-1;
+}
+
+.button {
+    @apply 
+        px-6 py-4 flex flex-row gap-2 items-center
+        bg-sky-900 hover:bg-sky-700 rounded-md;
+}
+
+.icon {
+    @apply h-5 inline;
+
+}
+
+.button-bar {
+    @apply flex flex-wrap gap-6 justify-center;
+}
+
+.gallery-item {
+    @apply w-72 transition-transform hover:scale-110;
+}
+
+.gallery-showcase {
+    @apply
+        flex flex-col gap-3 justify-end items-start 
+        px-4 py-3 md:px-20 md:py-12 w-full h-full text-white 
+        bg-black bg-opacity-70;
+}
+
+.text-carousel>* {
+    animation: text-carousel-animation 20s both infinite;
+}
+
+@keyframes text-carousel-animation {
+    00% {
+        transform: translateY(0%);
+    }
+
+    14%, 17% {
+        transform: translateY(-100%);
+    }
+
+    28%, 31% {
+        transform: translateY(-200%);
+    }
+
+    42%, 45% {
+        transform: translateY(-300%);
+    }
+
+    56%, 59% {
+        transform: translateY(-400%);
+    }
+
+    70%, 74% {
+        transform: translateY(-500%);
+    }
+
+    84%, 87% {
+        transform: translateY(-600%);
+    }
+}
