@@ -662,6 +662,10 @@ video {
   max-width: 65ch;
 }
 
+.grow {
+  flex-grow: 1;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -710,16 +714,16 @@ video {
   background-image: url('/gallery/autocad/preview.png');
 }
 
-.bg-\[url\(\'\/gallery\/donut\/preview\.png\'\)\] {
-  background-image: url('/gallery/donut/preview.png');
+.bg-\[url\(\'\/gallery\/sports-car\/preview\.png\'\)\] {
+  background-image: url('/gallery/sports-car/preview.png');
 }
 
 .bg-\[url\(\'\/gallery\/mushroom-bottle\/preview\.png\'\)\] {
   background-image: url('/gallery/mushroom-bottle/preview.png');
 }
 
-.bg-\[url\(\'\/gallery\/sports-car\/preview\.png\'\)\] {
-  background-image: url('/gallery/sports-car/preview.png');
+.bg-\[url\(\'\/gallery\/donut\/preview\.png\'\)\] {
+  background-image: url('/gallery/donut/preview.png');
 }
 
 .from-black {
