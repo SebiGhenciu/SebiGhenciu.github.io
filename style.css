@@ -710,12 +710,24 @@ video {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
 
-.bg-\[url\(\'\/gallery\/autocad\/preview\.png\'\)\] {
-  background-image: url('/gallery/autocad/preview.png');
-}
-
 .bg-\[url\(\'\/gallery\/autocad1\/preview\.png\'\)\] {
   background-image: url('/gallery/autocad1/preview.png');
+}
+
+.bg-\[url\(\'\/gallery\/autocad2\/preview\.png\'\)\] {
+  background-image: url('/gallery/autocad2/preview.png');
+}
+
+.bg-\[url\(\'\/gallery\/autocad3\/preview\.png\'\)\] {
+  background-image: url('/gallery/autocad3/preview.png');
+}
+
+.bg-\[url\(\'\/gallery\/autocad4\/preview\.png\'\)\] {
+  background-image: url('/gallery/autocad4/preview.png');
+}
+
+.bg-\[url\(\'\/gallery\/autocad5\/preview\.png\'\)\] {
+  background-image: url('/gallery/autocad5/preview.png');
 }
 
 .bg-\[url\(\'\/gallery\/sports-car\/preview\.png\'\)\] {
@@ -728,6 +740,10 @@ video {
 
 .bg-\[url\(\'\/gallery\/donut\/preview\.png\'\)\] {
   background-image: url('/gallery/donut/preview.png');
+}
+
+.bg-\[url\(\'\/gallery\/blenderPlants\/preview\.png\'\)\] {
+  background-image: url('/gallery/blenderPlants/preview.png');
 }
 
 .from-black {
