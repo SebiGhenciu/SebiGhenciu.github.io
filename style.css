@@ -714,6 +714,10 @@ video {
   background-image: url('/gallery/autocad/preview.png');
 }
 
+.bg-\[url\(\'\/gallery\/autocad1\/preview\.png\'\)\] {
+  background-image: url('/gallery/autocad1/preview.png');
+}
+
 .bg-\[url\(\'\/gallery\/sports-car\/preview\.png\'\)\] {
   background-image: url('/gallery/sports-car/preview.png');
 }
